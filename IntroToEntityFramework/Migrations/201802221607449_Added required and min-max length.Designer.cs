@@ -7,13 +7,13 @@ namespace IntroToEntityFramework.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class addedorderdateanddescription : IMigrationMetadata
+    public sealed partial class Addedrequiredandminmaxlength : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addedorderdateanddescription));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Addedrequiredandminmaxlength));
         
         string IMigrationMetadata.Id
         {
-            get { return "201802212109387_added order date and description"; }
+            get { return "201802221607449_Added required and min-max length"; }
         }
         
         string IMigrationMetadata.Source

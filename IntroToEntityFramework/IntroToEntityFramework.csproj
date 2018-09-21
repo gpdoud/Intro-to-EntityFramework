@@ -63,9 +63,9 @@
     <Compile Include="Migrations\201802212027273_Added order.Designer.cs">
       <DependentUpon>201802212027273_Added order.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201802212109387_added order date and description.cs" />
-    <Compile Include="Migrations\201802212109387_added order date and description.Designer.cs">
-      <DependentUpon>201802212109387_added order date and description.cs</DependentUpon>
+    <Compile Include="Migrations\201802221607449_Added required and min-max length.cs" />
+    <Compile Include="Migrations\201802221607449_Added required and min-max length.Designer.cs">
+      <DependentUpon>201802221607449_Added required and min-max length.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Order.cs" />
@@ -86,8 +86,8 @@
     <EmbeddedResource Include="Migrations\201802212027273_Added order.resx">
       <DependentUpon>201802212027273_Added order.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201802212109387_added order date and description.resx">
-      <DependentUpon>201802212109387_added order date and description.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201802221607449_Added required and min-max length.resx">
+      <DependentUpon>201802221607449_Added required and min-max length.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
